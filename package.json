@@ -1,0 +1,41 @@
+{
+  "name": "manifold-patches",
+  "version": "1.0.0",
+  "description": "Extract manifold patches from a mesh",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ataber/manifold-patches.git"
+  },
+  "keywords": [
+    "simplicial",
+    "complex",
+    "mesh",
+    "orientation",
+    "orient",
+    "cell",
+    "normal",
+    "manifold",
+    "patches"
+  ],
+  "author": "Andrew Taber <andrew.e.taber@gmail.com> (http://taber.space)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ataber/manifold-patches/issues"
+  },
+  "homepage": "https://github.com/ataber/manifold-patches#readme",
+  "dependencies": {
+    "simplicial-complex": "^1.0.0"
+  },
+  "devDependencies": {
+    "gl-mat4": "^1.1.4",
+    "gl-wireframe": "^1.0.1",
+    "normals": "^1.1.0",
+    "regl": "^1.3.0",
+    "regl-camera": "^2.1.1",
+    "snowden": "^1.0.1"
+  }
+}
